@@ -68,7 +68,7 @@ def add_new_member():
 
     jackson_family.add_member(new_member)
 
-    return jsonify({"message": "Miembro agregado exitosamente", "member": new_member}), 201
+    return jsonify({"message": "Miembro agregado exitosamente", "member": new_member}), 200
 
 
 
